@@ -6,6 +6,8 @@
     <title>Alexis Aguilar</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -40,39 +42,61 @@
         </div>
       </div>
     </nav>
-    <div class="main">
-        <div class="main2">
-            <div class="titulo">
-                <h1 class="display-2 title bs-info-bg-subtle" >Hola mi nombre es Alexis Andres Aguilar Cornejo</h1>
-            </div>
-            <div class="img1">
-                <img src="image/foto.jpeg" alt="">
-            </div>
+
+    <div class="container-fluid p-4 main">
+      <div class="row text-center aling-items-center">
+        <div class="col-md-6 mb-4">
+          <h1 class="display-2 title bs-info-bg-subtle" >Hola mi nombre es Alexis Andres Aguilar Cornejo</h1>
         </div>
-        <div class="boton">
+        <div class="col-md-6 mb-4 img1 " data-aos="fade-left">
+          <img src="image/foto.jpeg" alt="">
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn btn-outline-secondary">
             <a href="./WIREFRAMES/Currículum Vitae sin foto minimalista blanco negro.pdf">CV</a>
+          </button>
         </div>
+        <div class="col-6">
+          <button type="button" class="btn btn-outline-secondary">
+            <a href="https://github.com/Drecor1798/coder-67590.git">codigo de pagina</a>
+          </button>
+        </div>
+      </div>
     </div>
 
     <div class="img2">
-        <div class="texto1">
+        <div class="texto1 clearfix" data-aos="zoom-in">
             <h2>Desarrollo Web/Ciencia de datos</h2>
-            <p>Tengo formación en Ciencia de Datos, desarrollo web y experiencia en análisis operativo, actualmente trabajando como Analista de Control Tower en Avancargo. Me encuentro en constante crecimiento, ampliando mis habilidades en desarrollo Full Stack a través de la plataforma Coderhouse.</p>
+            <p class="h5">Tengo formación en Ciencia de Datos, desarrollo web y experiencia en análisis operativo, actualmente trabajando como Analista de Control Tower en Avancargo. Me encuentro en constante crecimiento, ampliando mis habilidades en desarrollo Full Stack a través de la plataforma Coderhouse.</p>
 
-            <p> Cuento con una sólida base técnica gracias a mi paso por Ingeniería Electrónica (hasta tercer año), y me destaco por combinar pensamiento analítico con una fuerte orientación a la resolución de problemas y la mejora continua. Mi objetivo es integrarme en equipos de desarrollo donde pueda aportar desde la lógica, los datos y la programación.</p>
+            <p class="h5"> Cuento con una sólida base técnica gracias a mi paso por Ingeniería Electrónica (hasta tercer año), y me destaco por combinar pensamiento analítico con una fuerte orientación a la resolución de problemas y la mejora continua. Mi objetivo es integrarme en equipos de desarrollo donde pueda aportar desde la lógica, los datos y la programación.</p>
         </div>
         
     </div>
 
-      <div class="hstack gap-3">
-        <div class="p-2"><p>Gmail: drecor1798@hotmail.com</p>
-        <p>Numero:1169968177</p></div>
-        <div class="p-2 ms-auto"><a href="">instagram</a></div>
-        <div class="vr"></div>
-        <div class="p-2"><a href="https://www.linkedin.com/in/alexis-andres-aguilar-cornejo/">Linkedin</a></div>
-        <div class="vr"></div>
-        <div class="p-2"><a href="https://github.com/Drecor1798">Git Hub</a></div>
+
+    <div class="container-fluid text-center contenedor_fondo">
+      <div class="row aling-items-center">
+        <div class="col col-md-6">
+          <p>Gmail: drecor1798@hotmail.com</p>
+          <p>Numero:1169968177</p>
+        </div>
+        <div class="col col-md-2">
+          <div class="p-2 ms-auto"><a href="">instagram</a></div>
+        </div>
+        <div class="col col-md-2">
+          <div class="p-2"><a href="https://www.linkedin.com/in/alexis-andres-aguilar-cornejo/">Linkedin</a></div>
+        </div>
+        <div class="col col-md-2">
+          <div class="p-2"><a href="https://github.com/Drecor1798">Git Hub</a></div>
+        </div>
       </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
