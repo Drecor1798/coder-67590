@@ -1,0 +1,25 @@
+%boton-base {
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-image: radial-gradient(circle, #55ae99, #00a3ac, #0095c4, #0081d6, #0066d4, #0063d0, #0060cc, #005dc8, #006fc0, #007598, #007565, #1b7138);
+}
+
+.mb-2 {
+    @extend %boton-base;
+}
+
+.mb-2 a{
+    color: black;
+    text-decoration: none;
+    display: block; 
+}
+
+.mb-2:hover{
+    background-image: radial-gradient(circle, #9ccdc1, #72c3c5, #42b6cf, #07a7db, #2894e1, #2093e1, #1493e1, #0092e1, #00a2d7, #00aebf, #30b5a2, #73b98b);
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+    display: block; 
+}

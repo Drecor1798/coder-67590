@@ -1,0 +1,32 @@
+#sobre_mi{
+    .skills{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        li{
+            margin: 3%;
+            background: linear-gradient(245deg, rgb(176, 207, 219) 0%, rgb(120, 141, 197) 25%, rgb(63, 82, 136) 75%);
+            color: black; 
+            padding: 10px 10px;
+            text-align: center;
+            font-size: 1.1rem;
+            border-radius: 10px;
+        }
+    }
+    #accordionFlushExample{
+            background: linear-gradient(245deg, rgb(206, 219, 176) 0%, rgb(120, 160, 197) 50%, rgb(96, 154, 183) 75%);
+
+            .collapsed{
+                background-image: radial-gradient(circle, #3c5ce3, #3964e6, #376be8, #3772ea, #3879ec, #2682ee, #128aee, #0092ee, #009cea, #00a5e4, #00acdb, #1db3d2);
+            }
+            .collapsed:hover{
+                background-image: radial-gradient(circle, #849af7, #819df5, #7e9ff3, #7ca2f1, #7ba4ef, #75aaf0, #71b0f0, #6eb5f0, #68bef1, #68c7f0, #6dcfee, #76d7eb);
+            }
+
+    }
+}
+
+.accordion-body{
+                background: linear-gradient(245deg,  #6587ae 0%, rgb(120, 179, 197) 25%, rgb(156, 199, 213) 75%);
+            }

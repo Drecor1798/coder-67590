@@ -1,0 +1,26 @@
+// 1. Variables y mixins
+@use 'modules/variables';
+@use 'modules/mixins';
+@use 'modules/helpers';
+
+
+@use 'base/base';
+@use 'base/typography';
+@use 'base/utilities';
+
+// 3. Layouts
+@use 'layouts/grid';
+@use 'layouts/header';
+@use 'layouts/footer';
+@use 'layouts/responsive';
+
+// 4. Componentes
+@use 'components/buttons';
+@use 'components/card';
+@use 'components/form';
+@use 'components/navbar';
+
+// 5. Estilos por página
+@use 'pages/home';
+@use 'pages/sobre_mi'
+

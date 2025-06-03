@@ -1,0 +1,17 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  padding: 2rem;
+  z-index: 1050;
+  max-width: 500px;
+  width: 90%;
+
+  &-header, &-body, &-footer {
+    margin-bottom: 1rem;
+  }
+}

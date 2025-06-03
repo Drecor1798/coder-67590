@@ -1,0 +1,22 @@
+header {
+    background: linear-gradient(245deg, rgb(206, 219, 176) 0%, rgb(120, 160, 197) 50%, rgb(96, 154, 183) 75%);padding: 1rem;
+
+  .navbar-brand {
+    color: rgb(110, 65, 65);
+    font-weight: bold;
+  }
+  .completo{
+    height: 100vh; // ✅ Ocupa el 100% de la pantalla vertical
+    width: 100vw;  // ✅ Ocupa el ancho total de la pantalla
+  }
+}
+
+.completo{
+    height: 100vh; // ✅ Ocupa el 100% de la pantalla vertical
+    width: 100vw;  // ✅ Ocupa el ancho total de la pantalla
+    display: flex;               // ✅ Centrado de contenido
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
